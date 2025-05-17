@@ -8,7 +8,7 @@ from langchain_core.messages import HumanMessage, SystemMessage, AIMessage
 llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash")
 
 # Initialize session state for chat history
-if "chat_history" not in st.session_state:
+if "chat_history" not in st.session_state: 
     st.session_state.chat_history = [SystemMessage(content="You are a helpful assistant.")]
 
 # App UI
