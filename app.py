@@ -1,2 +1,2 @@
 import streamlit as st
-st.titl("streamlit chatbot")
+st.title("streamlit chatbot")
